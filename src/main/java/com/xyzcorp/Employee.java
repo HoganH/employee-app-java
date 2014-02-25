@@ -14,11 +14,12 @@ public class Employee {
 	
     public Employee(String firstName, String lastName, double pay) {
         this.pay = pay;
-		// this.fistName = firstName;
+		this.fistName = firstName;
+		this.lastName = lastName;
     }
 	
 	public String getEmployee(){
-		return this.firstName + " " + this.lastname;
+		return this.firstName + " " + this.lastName;
 	}
 
 	
