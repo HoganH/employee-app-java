@@ -14,7 +14,7 @@ public class Employee {
 	
     public Employee(String firstName, String lastName, double pay) {
         this.pay = pay;
-		this.fistName = firstName;
+		this.firstName = firstName;
 		this.lastName = lastName;
     }
 	
