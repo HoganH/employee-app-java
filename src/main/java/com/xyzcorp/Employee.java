@@ -9,14 +9,16 @@ package com.xyzcorp;
  */
 public class Employee {
     private double pay;
-
+	private String firstName;
+	private String lastName;
+	
     public Employee(String firstName, String lastName, double pay) {
         this.pay = pay;
 		// this.fistName = firstName;
     }
 	
 	public string getEmployee(){
-		return firstName + " " + lastname;
+		return this.firstName + " " + this.lastname;
 	}
 
 	
