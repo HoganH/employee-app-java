@@ -17,7 +17,7 @@ public class Employee {
 		// this.fistName = firstName;
     }
 	
-	public string getEmployee(){
+	public String getEmployee(){
 		return this.firstName + " " + this.lastname;
 	}
 
